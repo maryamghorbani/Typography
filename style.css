@@ -1,5 +1,11 @@
+@font-face {
+    font-family: compactrounded;
+    src: url(Compact-Rounded-Regular.ttf);
+}
+
+
 html {
-    color: black;
+    color: rgb(40,47,68);
 }
 
 body {
@@ -14,4 +20,5 @@ body {
 }
 .hero h1{
     font-size: 4rem;
+    font-family: compactrounded;
 }

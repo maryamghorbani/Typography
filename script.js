@@ -15,9 +15,9 @@ hero.addEventListener('mousemove', function (event) {
     const yWalk = Math.round((y / height * walk) - (walk/2));
 
     text.style.textShadow = `
-        ${xWalk}px ${yWalk}px 0 rgba(238, 82, 83, .7),
-        ${xWalk * -1}px ${yWalk}px 0 rgba(52, 31, 151, .7),
-        ${yWalk}px ${xWalk * -1}px 0 rgba(243, 104, 224, .7),
-        ${yWalk * -1}px ${xWalk}px 0 rgba(254, 202, 87, .7)
+        ${xWalk}px ${yWalk}px 0 rgba(40, 47, 68, .7),
+        ${xWalk * -1}px ${yWalk}px 0 rgba(17, 204, 136, .7),
+        ${yWalk}px ${xWalk * -1}px 0 rgba(40, 47, 68, .7),
+        ${yWalk * -1}px ${xWalk}px 0 rgba(17, 204, 136, .7)
     `
 })
